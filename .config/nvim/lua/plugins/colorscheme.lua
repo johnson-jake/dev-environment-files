@@ -1,12 +1,25 @@
+-- return {
+--   -- add gruvbox
+--
+--   { "mofiqul/vscode.nvim" },
+--   -- Configure LazyVim to load gruvbox
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "vscode",
+--       transparent = true,
+--     },
+--   },
+-- }
 return {
-  -- add gruvbox
-
-  { "mofiqul/vscode.nvim" },
-  -- Configure LazyVim to load gruvbox
   {
-    "LazyVim/LazyVim",
+    "folke/tokyonight.nvim",
     opts = {
-      colorscheme = "vscode",
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
     },
   },
 }
